@@ -4,19 +4,12 @@
 
 SneakPeak est un site de e-commerce fictif proposant des baskets de marques réputées, vendues et expédiées en France métropolitaine.  
 
-Ce projet a été réalisé en 4e année d'Ingénierie du Web à l'ESGI Paris, dans le cadre du second challenge semestriel de l'année 2023 - 2024. Il concerne les modules suivants :
+Voici les technologies utilisées :
 - Vue.js avec TypeScript
 - Node.js, MongoDB
 - Droit de l'informatique & RGPD
 
 Ce projet contient également des tests unitaires et d'intégration pour l'API.
-
-## Membres du groupe n°10
-
-- LANIKPEKOUN Cheick
-- LOPEZ Frédéric
-- MALONZO Ryan
-- MECHMECHE Fayssal
 
 ## Environnement technique
 
@@ -46,78 +39,78 @@ Ce projet contient également des tests unitaires et d'intégration pour l'API.
 ## Pages et fonctionnalités réalisées
 
 - Accueil
-  - Apparence générale : Fayssal
-  - Récupération et affichage des données : Ryan 
+  - Apparence générale
+  - Récupération et affichage des données
 - Authentification
-  - Inscription avec confirmation par mail : Cheick, Ryan
-  - Connexion : Cheick, Ryan
-  - Réinitialisation du mot de passe : Cheick, Ryan
+  - Inscription avec confirmation par mail 
+  - Connexion 
+  - Réinitialisation du mot de passe
   - Recommandations de la CNIL
-    - Vérification de la robustesse du mot de passe : Cheick
-    - Temporisation d'accès au compte après trois tentatives infructueuses et notification par mail : Ryan
-    - Demande de renouvellement du mot de passe tous les 60 jours : Fayssal
-    - Hachage des mots de passe : Ryan
+    - Vérification de la robustesse du mot de passe
+    - Temporisation d'accès au compte après trois tentatives infructueuses et notification par mail 
+    - Demande de renouvellement du mot de passe tous les 60 jours
+    - Hachage des mots de passe
 - Recherche de produits
   - Apparence générale : Cheick (design), Ryan (intégration)
-  - Recherche via saisie utilisateur (nom d'un produit, description et partage d'URL) : Ryan
-  - Recherche à facettes (filtrage par nom, catégorie, marque, prix minimum et maximum...) : Ryan
+  - Recherche via saisie utilisateur (nom d'un produit, description et partage d'URL)
+  - Recherche à facettes (filtrage par nom, catégorie, marque, prix minimum et maximum...) 
 - Vue produit
-  - Apparence générale : Frédéric
-  - Affichage des différentes couleurs d'une basket : Frédéric
-  - Affichage des tailles disponibles par couleur : Frédéric
+  - Apparence générale 
+  - Affichage des différentes couleurs d'une basket
+  - Affichage des tailles disponibles par couleur
 - Profil
   - Apparence générale : Fayssal (design), Ryan (intégration)
-  - Modification des informations personnelles : Ryan
-  - Modification des adresses : Fayssal, Ryan
-  - Téléchargement des données personnelles : Ryan
-  - "Suppression" du compte (anonymisation) : Ryan
-- Panier avec système de réservation : Fayssal
+  - Modification des informations personnelles 
+  - Modification des adresses
+  - Téléchargement des données personnelles 
+  - "Suppression" du compte (anonymisation)
+- Panier avec système de réservation 
 - Paiement
-  - Intégration de Stripe : Fayssal
-  - Création de liens de paiement uniques : Fayssal
-  - Remboursement avec facture d'avoir : Fayssal
-- Suivi de livraison : Fayssal
+  - Intégration de Stripe 
+  - Création de liens de paiement uniques 
+  - Remboursement avec facture d'avoir 
+- Suivi de livraison 
 - Historique des commandes
-  - Demande de facturation : Fayssal
-  - Demande de retour produit : Fayssal
-  - Recherche : Fayssal
-  - Commander à nouveau : Fayssal
+  - Demande de facturation 
+  - Demande de retour produit
+  - Recherche
+  - Commander à nouveau 
 - Panel d'administration (Back office)
-  - Apparence générale : Cheick
-  - Gestion des commandes : Fayssal
-  - Gestion des baskets : Frédéric, Ryan
-  - Gestion des catégories : Ryan
-  - Gestion des marques : Ryan
-  - Gestion des couleurs : Ryan
-  - Gestion des variantes de baskets : Frédéric
-  - Gestion du stock : Fayssal
-- Alerte par mail au gestionnaire de stocks en fin de stock d'un produit : Fayssal
-- Conditions générales d'utilisation : Ryan
-- Conditions générales de vente : Ryan
-- Politique de confidentialité : Fayssal
-- Politique de cookies : Cheick
+  - Apparence générale 
+  - Gestion des commandes 
+  - Gestion des baskets 
+  - Gestion des catégories
+  - Gestion des marques
+  - Gestion des couleurs 
+  - Gestion des variantes de baskets 
+  - Gestion du stock
+- Alerte par mail au gestionnaire de stocks en fin de stock d'un produit
+- Conditions générales d'utilisation 
+- Conditions générales de vente
+- Politique de confidentialité 
+- Politique de cookies 
 
 ## Contraintes respectées
 
 - Vue.js avec TypeScript
-  - Composant bouton pour l'affichage d'une invite de confirmation avec suppression d'une donnée : Cheick
-  - Composable de gestion de formulaire : Ryan
-  - Composant de tableau de données : Ryan
+  - Composant bouton pour l'affichage d'une invite de confirmation avec suppression d'une donnée 
+  - Composable de gestion de formulaire 
+  - Composant de tableau de données 
 - Node.js, MongoDB
-  - Processus de dénormalisation SQL vers MongoDB : Fayssal, Frédéric
-  - Authentification JWT : Frédéric, Ryan
-  - Système de migration SQL : Ryan
+  - Processus de dénormalisation SQL vers MongoDB
+  - Authentification JWT
+  - Système de migration SQL
 - Droit de l'informatique & RGPD
-  - Pop-up d'information sur les cookies : Fayssal
+  - Pop-up d'information sur les cookies
 
 ## Autres (aspects techniques)
 
-- Endpoints CRUD pour les différentes ressources de l'API : Fayssal, Frédéric, Ryan
-- Middleware de vérification des schémas de corps de requête (payload) : Ryan
-- Middleware de vérification d'authentification : Ryan
-- Middlewares de vérifications de permissions : Fayssal, Ryan
-- Middleware de pagination : Ryan
-- Génération de fixtures avec Faker : Fayssal
+- Endpoints CRUD pour les différentes ressources de l'API
+- Middleware de vérification des schémas de corps de requête (payload)
+- Middleware de vérification d'authentification 
+- Middlewares de vérifications de permissions 
+- Middleware de pagination 
+- Génération de fixtures avec Faker 
 
 ## Installation
 
